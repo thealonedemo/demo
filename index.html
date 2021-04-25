@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title> Crud </title>
+         <meta name="view-port" content="width=device-width, initial-scale=1.0">   
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+
+    </head>
+    <body>
+        <div class="container p-5">
+            <h2 class="bg-primary text-white  p-4">CRUD OPERATION</h2>
+        
+           <div class="adduser">
+               <div class="row mt-4">
+                   <div class="col-md-12">
+                       <p>Add User</p>
+                   </div>
+                       
+                   <div class="col-lg-10 md-10">
+                      <input type="text" class="form-control" id="data">
+
+                   </div>
+                   <div calss="col-lg-2 md-2">
+                      <button type="button" class="btn btn-primary" id="addUser" onclick="addUser()">Create User</button>
+
+                   </div>
+               </div>
+           </div>
+           <div class="row">
+                <div class="col-lg-12 md-12">
+                        <br>
+                        <p> User List</p>
+                    </div>
+
+           </div>
+           <div class="user" id="userList">
+               
+           </div>
+           
+
+
+        </div>
+        <script src="main.js"></script>
+    </body>
+
+
+
+
+
+
+
+</html>
